@@ -1,5 +1,16 @@
 @import 'normalize.css';
 
+:root {
+  --header-height: 64px;
+
+  --primary: #0194f3;
+
+  --white: #fff;
+  --black: #000;
+  --text-color: #333;
+}
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,6 +25,7 @@ body {
   font-size: 1.6rem;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  color: var(--text-color);
 }
 
 
@@ -26,4 +38,9 @@ input,
 
 a[href] {
   text-decoration: none;
+  /* color: var(--text-color); */
+}
+
+i.fas {
+  color: var(--text-color);
 }
